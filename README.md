@@ -23,6 +23,20 @@ Analysis of the global COVID-19 pandemic (Jan–Jul 2020) using the JHU Clean Co
 - China, where the outbreak started, had largely stabilized by mid-2020, with only ~3,258 active cases remaining out of ~86,783 total confirmed
 - Global recovery trends showed steady improvement over the analyzed period
 
+### Sample Visualizations
+
+**Global Confirmed Cases Trend:**
+![Confirmed Cases Trend](screenshots/covid_confirmed_cases_trend.png)
+
+**Overall Trend Comparison (Confirmed, Deaths, Recovered, Active):**
+![Overall Trends](screenshots/covid_overall_trend_comparison.png)
+
+**US vs India — Confirmed Cases Comparison:**
+![US India Comparison](screenshots/covid_us_india_confirmed_comparison.png)
+
+**Time-Series Forecast (Facebook Prophet):**
+![Prophet Forecast](screenshots/covid_prophet_forecast.png)
+
 ## How to Run
 1. Clone this repository
 2. Install required libraries: `pip install pandas numpy seaborn matplotlib plotly prophet`
